@@ -1,0 +1,24 @@
+@import './variable.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+body {
+  background-color: #20202b;
+  font-family: 'Roboto', sans-serif;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+.wrapper {
+  width: 640px;
+  height: 1008px;
+  margin: 40px auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-size: 40px;
+  color: lighten($primary-color, 100%);
+  text-transform: uppercase;
+}

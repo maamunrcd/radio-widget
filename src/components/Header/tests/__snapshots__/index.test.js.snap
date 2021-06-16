@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render its heading 1`] = `
+<div
+  class="header"
+>
+  <span
+    class="icon-arrow"
+  >
+    <img
+      alt="arrow icon"
+      src="arrow.png"
+    />
+  </span>
+  <h1
+    class="title"
+  >
+    STATIONS
+  </h1>
+  <span
+    class="icon-power"
+  >
+    <img
+      alt="power icon"
+      src="switch.png"
+    />
+  </span>
+</div>
+`;

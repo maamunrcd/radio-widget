@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should render its all necessary node 1`] = `
+<div
+  class="footer"
+  data-testid="footer"
+/>
+`;

@@ -1,0 +1,13 @@
+@import '../../assets/scss/variable.scss';
+
+.header {
+    height: 15%;
+    background: $header-color;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
