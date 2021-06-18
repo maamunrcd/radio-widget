@@ -4,13 +4,23 @@
     min-height: 20%;
     border-bottom-left-radius: 45px;
     border-bottom-right-radius: 45px;
-    background:darken($bg-color, 10%);
+    background:#24242e;
     padding: 40px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items:center;
     justify-content: center;
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        box-shadow: 0 50px 50px #13131a;
+        width: 70%;
+        height: 50%;
+        z-index: -1;
+    }
     .label {
         font-size: 22px;
         color: $header-color;
