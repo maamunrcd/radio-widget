@@ -1,27 +1,31 @@
-[
-    {
+[{
         "id": 1,
         "title": "Putin FM",
-        "freq": "66,6"
+        "freq": "66,6",
+        "img": "https://via.placeholder.com/450"
     },
     {
         "id": 2,
         "title": "Dribbble FM",
-        "freq": "101,2"
+        "freq": "101,2",
+        "img": "https://via.placeholder.com/450"
     },
     {
         "id": 3,
         "title": "Doge FM",
-        "freq": "99,4"
+        "freq": "99,4",
+        "img": "https://via.placeholder.com/450"
     },
     {
         "id": 4,
         "title": "Ballads FM",
-        "freq": "87,1"
+        "freq": "87,1",
+        "img": "https://via.placeholder.com/450"
     },
     {
         "id": 5,
         "title": "Maximum FM",
-        "freq": "142,2"
+        "freq": "142,2",
+        "img": "https://via.placeholder.com/450"
     }
 ]

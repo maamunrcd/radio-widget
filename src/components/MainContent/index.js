@@ -32,7 +32,9 @@ const MainContent = ({
                   -1 && (
                   <div className="station-figure">
                     <span className="control prev"></span>
-                    <img src={playerImg} alt="station player" />
+                    <div className="img-wrapper">
+                      <img src={station.img} alt="station player" />
+                    </div>
                     <span className="control next"></span>
                   </div>
                 )}
